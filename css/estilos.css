@@ -104,3 +104,27 @@ article
 	width: 100%;
 	}
 }
+
+@keyframes contenido-animacion {
+0% {
+position: relative;
+margin-top: 150%
+}
+50% {
+position: relative;
+margin-top: -5%
+}
+100% {
+position: relative;
+margin-top: 0%
+}
+}
+
+#contenido{
+animation-name: contenido-animacion;
+animation-duration: 3s;
+-webkit-animation-delay: 0s;
+-moz-animation-delay: 0s;
+-o-animation-delay: 0s;
+animation-delay: 0s;
+}
