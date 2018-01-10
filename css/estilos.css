@@ -93,12 +93,6 @@ ul li a {
 	flex-flow: row wrap;
 }
 
-/* #columna3
-{
-	background-color: #d5c75f;
-	width: 50%;
-} */
-
 #columna4
 {
 	background-color: #C6d5c5;
@@ -126,26 +120,19 @@ ul li a {
 #columna1 img{
 	text-align: center;
 	width: 70%;
-	-webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
-  box-shadow: 0 10px 6px -6px #777;
+	-webkit-box-shadow: 2px 2px #02010a;
+  -moz-box-shadow: 2px 2px #02010a;
+  box-shadow: 2px 2px #02010a;
 }
 
 #columna2 p img{
 	text-align: center;
 	width: 80%;
-	-webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
-  box-shadow: 0 10px 6px -6px #777;
+	-webkit-box-shadow: 2px 2px #02010a;
+  -moz-box-shadow: 2px 2px #02010a;
+  box-shadow: 2px 2px #02010a;
 }
 
-/* #columna3 img{
-	text-align: center;
-	width: 80%;
-	-webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
-  box-shadow: 0 10px 6px -6px #777;
-} */
 
 @media screen and (max-width: 899px){
 
@@ -163,10 +150,6 @@ ul li a {
 	{
 	width: 100%;
 	}
-	/* #columna3
-	{
-	width: 100%;
-	} */
   #columna4
 	{
 	width: 100%;
@@ -233,10 +216,3 @@ animation-delay: 0s;
 .contenedor>div>p{
 	font-size: 15px;
 }
-/* #columna4 div{
-	margin-top: 2%;
-}
-
-#columna4>div>p{
-	font-size: 15px;
-} */
